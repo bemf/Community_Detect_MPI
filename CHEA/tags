@@ -1,0 +1,337 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AnchorPoint	cheaalg.h	/^	vector<vector <double> > AnchorPoint;$/;"	m	class:CHEA	access:public
+CHEA	cheaalg.cpp	/^CHEA::CHEA(int pop_size, int hype_intercept){$/;"	f	class:CHEA	signature:(int pop_size, int hype_intercept)
+CHEA	cheaalg.h	/^	CHEA(int pop_size, int hype_intercept);$/;"	p	class:CHEA	access:public	signature:(int pop_size, int hype_intercept)
+CHEA	cheaalg.h	/^class CHEA$/;"	c
+CHEA::AnchorPoint	cheaalg.h	/^	vector<vector <double> > AnchorPoint;$/;"	m	class:CHEA	access:public
+CHEA::CHEA	cheaalg.cpp	/^CHEA::CHEA(int pop_size, int hype_intercept){$/;"	f	class:CHEA	signature:(int pop_size, int hype_intercept)
+CHEA::CHEA	cheaalg.h	/^	CHEA(int pop_size, int hype_intercept);$/;"	p	class:CHEA	access:public	signature:(int pop_size, int hype_intercept)
+CHEA::GetHyperVolume	cheaalg.cpp	/^double CHEA::GetHyperVolume(const CHEAInd&  ind,vector <double> &ref_ponit_cal)$/;"	f	class:CHEA	signature:(const CHEAInd& ind,vector <double> &ref_ponit_cal)
+CHEA::GetHyperVolume	cheaalg.h	/^	virtual double GetHyperVolume(const CHEAInd&  ind, vector <double> &ref_ponit_cal);$/;"	p	class:CHEA	access:public	signature:(const CHEAInd& ind, vector <double> &ref_ponit_cal)
+CHEA::IdealPoint	cheaalg.h	/^	vector <double> IdealPoint;$/;"	m	class:CHEA	access:public
+CHEA::Pareto_HyperVolume_compare_sectorialgrid	cheaalg.cpp	/^bool CHEA::Pareto_HyperVolume_compare_sectorialgrid(const CHEAInd& ind ,CHEAInd& replacedInd)$/;"	f	class:CHEA	signature:(const CHEAInd& ind ,CHEAInd& replacedInd)
+CHEA::Pareto_HyperVolume_compare_sectorialgrid	cheaalg.h	/^	virtual bool Pareto_HyperVolume_compare_sectorialgrid(const CHEAInd& ind ,CHEAInd& replacedInd);$/;"	p	class:CHEA	access:public	signature:(const CHEAInd& ind ,CHEAInd& replacedInd)
+CHEA::ReferencePoint	cheaalg.h	/^	vector <double> ReferencePoint;$/;"	m	class:CHEA	access:public
+CHEA::TrueNadirPoint	cheaalg.h	/^	vector <double> TrueNadirPoint;$/;"	m	class:CHEA	access:public
+CHEA::allocateForProcess	cheaalg.cpp	/^void CHEA::allocateForProcess()$/;"	f	class:CHEA	signature:()
+CHEA::allocateForProcess	cheaalg.h	/^	void allocateForProcess();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::allocateForProcess_Linear	cheaalg.cpp	/^void CHEA::allocateForProcess_Linear()$/;"	f	class:CHEA	signature:()
+CHEA::allocateForProcess_Linear	cheaalg.h	/^	void allocateForProcess_Linear();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::b_isdone	cheaalg.h	/^	int *b_isdone;$/;"	m	class:CHEA	access:public
+CHEA::b_recv	cheaalg.h	/^	double *b_recv, *b_send;$/;"	m	class:CHEA	access:public
+CHEA::b_send	cheaalg.h	/^	double *b_recv, *b_send;$/;"	m	class:CHEA	access:public
+CHEA::c_recv	cheaalg.h	/^    double *c_recv,*c_send;$/;"	m	class:CHEA	access:public
+CHEA::c_send	cheaalg.h	/^    double *c_recv,*c_send;$/;"	m	class:CHEA	access:public
+CHEA::calc_distance	cheaalg.cpp	/^double CHEA::calc_distance(vector<vector<double> >& ParetoFront)$/;"	f	class:CHEA	signature:(vector<vector<double> >& ParetoFront)
+CHEA::calc_distance	cheaalg.h	/^	double calc_distance(vector<vector<double> >& ParetoFront);$/;"	p	class:CHEA	access:public	signature:(vector<vector<double> >& ParetoFront)
+CHEA::calc_hypervolume	cheaalg.cpp	/^double CHEA::calc_hypervolume(vector<vector<double> >& ParetoFront)$/;"	f	class:CHEA	signature:(vector<vector<double> >& ParetoFront)
+CHEA::calc_hypervolume	cheaalg.h	/^	double calc_hypervolume(vector<vector<double> >& ParetoFront);$/;"	p	class:CHEA	access:public	signature:(vector<vector<double> >& ParetoFront)
+CHEA::calc_qualities	cheaalg.cpp	/^void CHEA::calc_qualities(double &igd, double& hv)$/;"	f	class:CHEA	signature:(double &igd, double& hv)
+CHEA::calc_qualities	cheaalg.h	/^	void calc_qualities(double& igd, double &hv);$/;"	p	class:CHEA	access:public	signature:(double& igd, double &hv)
+CHEA::evolution_tour_select	cheaalg.cpp	/^void CHEA::evolution_tour_select()$/;"	f	class:CHEA	signature:()
+CHEA::evolution_tour_select	cheaalg.h	/^	void evolution_tour_select();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::evolution_tour_select_2	cheaalg.cpp	/^void CHEA::evolution_tour_select_2()$/;"	f	class:CHEA	signature:()
+CHEA::evolution_tour_select_2	cheaalg.h	/^	void evolution_tour_select_2();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::execute	cheaalg.cpp	/^void CHEA::execute(int mg, int irun ,vector<double>& igd, vector<double>& hv,double &runtime, PTYPE ptype)$/;"	f	class:CHEA	signature:(int mg, int irun ,vector<double>& igd, vector<double>& hv,double &runtime, PTYPE ptype)
+CHEA::execute	cheaalg.h	/^	void execute(int mg, int irun, vector<double>& igd, vector<double>& hv, double &runtime, PTYPE ptype);$/;"	p	class:CHEA	access:public	signature:(int mg, int irun, vector<double>& igd, vector<double>& hv, double &runtime, PTYPE ptype)
+CHEA::finish	cheaalg.h	/^	clock_t start, finish;$/;"	m	class:CHEA	access:public
+CHEA::gather_pop_y	cheaalg.cpp	/^void CHEA::gather_pop_y()$/;"	f	class:CHEA	signature:()
+CHEA::gather_pop_y	cheaalg.h	/^	void gather_pop_y();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::gather_populations	cheaalg.cpp	/^void CHEA::gather_populations()$/;"	f	class:CHEA	signature:()
+CHEA::gather_populations	cheaalg.h	/^	void gather_populations();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::gen_SubProblems	cheaalg.cpp	/^void CHEA::gen_SubProblems(int start_obj_index, int max_value_left, vector<int> coordinate,int &index_count)$/;"	f	class:CHEA	signature:(int start_obj_index, int max_value_left, vector<int> coordinate,int &index_count)
+CHEA::gen_SubProblems	cheaalg.h	/^	void gen_SubProblems(int start_obj_index, int max_value_left, vector<int> coordinate, int &index_count);$/;"	p	class:CHEA	access:public	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int &index_count)
+CHEA::gen_uniformweight	cheaalg.cpp	/^void CHEA::gen_uniformweight(int start_obj_index, int max_value_left, vector<int> coordinate, int H)$/;"	f	class:CHEA	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int H)
+CHEA::gen_uniformweight	cheaalg.h	/^	void gen_uniformweight(int start_obj_index, int max_value_left, vector<int> coordinate, int H);$/;"	p	class:CHEA	access:public	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int H)
+CHEA::getAndUpdateIndivs	cheaalg.cpp	/^void CHEA::getAndUpdateIndivs(double* b_recv_indiv, int datasize, int source, MPI_Request *request)$/;"	f	class:CHEA	signature:(double* b_recv_indiv, int datasize, int source, MPI_Request *request)
+CHEA::getAndUpdateIndivs	cheaalg.h	/^	void getAndUpdateIndivs(double* b_recv_indiv, int datasize, int source, MPI_Request *request);$/;"	p	class:CHEA	access:public	signature:(double* b_recv_indiv, int datasize, int source, MPI_Request *request)
+CHEA::hyperplane_Intercept	cheaalg.h	/^	int hyperplane_Intercept;$/;"	m	class:CHEA	access:public
+CHEA::indivBufSize	cheaalg.h	/^	int indivBufSize;$/;"	m	class:CHEA	access:public
+CHEA::indiv_buf	cheaalg.h	/^	double *indiv_buf;$/;"	m	class:CHEA	access:public
+CHEA::init_neighborhood	cheaalg.h	/^	inline void init_neighborhood()\/\/为每一个子问题计算邻居子问题编号$/;"	f	class:CHEA	access:public	signature:()
+CHEA::init_population	cheaalg.cpp	/^void CHEA::init_population()$/;"	f	class:CHEA	signature:()
+CHEA::init_population	cheaalg.h	/^	void init_population();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::init_uniformweight	cheaalg.cpp	/^void CHEA::init_uniformweight()$/;"	f	class:CHEA	signature:()
+CHEA::init_uniformweight	cheaalg.h	/^	void init_uniformweight();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::isBegin_Ideal	cheaalg.h	/^	bool *isBegin_Ideal;$/;"	m	class:CHEA	access:public
+CHEA::isBegin_Indiv	cheaalg.h	/^	bool *isBegin_Indiv;$/;"	m	class:CHEA	access:public
+CHEA::isDoneRecv	cheaalg.h	/^	int *isDoneRecv;$/;"	m	class:CHEA	access:public
+CHEA::isDoneSend	cheaalg.h	/^	int *isDoneSend;$/;"	m	class:CHEA	access:public
+CHEA::isIdealpointUpdate	cheaalg.h	/^	bool isIdealpointUpdate;$/;"	m	class:CHEA	access:public
+CHEA::lambda	cheaalg.h	/^	vector<vector<int> >lambda;$/;"	m	class:CHEA	access:public
+CHEA::lambda_compare	cheaalg.cpp	/^bool CHEA::lambda_compare(vector<int> &l1, vector<int> &l2)$/;"	f	class:CHEA	signature:(vector<int> &l1, vector<int> &l2)
+CHEA::lambda_compare	cheaalg.h	/^	bool lambda_compare(vector<int> &l1, vector<int> & l2);$/;"	p	class:CHEA	access:public	signature:(vector<int> &l1, vector<int> & l2)
+CHEA::maxLayer	cheaalg.h	/^	int maxLayer;$/;"	m	class:CHEA	access:public
+CHEA::neighbor_partitions	cheaalg.h	/^	vector<int>neighbor_partitions;$/;"	m	class:CHEA	access:public
+CHEA::neighbor_partitions_set	cheaalg.h	/^	set<int> neighbor_partitions_set;$/;"	m	class:CHEA	access:public
+CHEA::onechild	cheaalg.h	/^	CHEAInd onechild;$/;"	m	class:CHEA	access:public
+CHEA::operator =	cheaalg.cpp	/^void CHEA::operator=(const CHEA &emo)$/;"	f	class:CHEA	signature:(const CHEA &emo)
+CHEA::operator =	cheaalg.h	/^	void operator=(const CHEA &emo);$/;"	p	class:CHEA	access:public	signature:(const CHEA &emo)
+CHEA::overlap_start_index	cheaalg.h	/^	int overlap_start_index;$/;"	m	class:CHEA	access:public
+CHEA::partition_indexs	cheaalg.h	/^	vector<set<int> > partition_indexs;$/;"	m	class:CHEA	access:public
+CHEA::partition_neighbor	cheaalg.cpp	/^void CHEA::partition_neighbor()$/;"	f	class:CHEA	signature:()
+CHEA::partition_neighbor	cheaalg.h	/^	void partition_neighbor();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::partition_niche	cheaalg.h	/^	int partition_niche;$/;"	m	class:CHEA	access:public
+CHEA::partition_overlap	cheaalg.cpp	/^void CHEA::partition_overlap(int maxLayer)$/;"	f	class:CHEA	signature:(int maxLayer)
+CHEA::partition_overlap	cheaalg.h	/^	void partition_overlap(int maxLayer);$/;"	p	class:CHEA	access:public	signature:(int maxLayer)
+CHEA::partition_overlap_indexs	cheaalg.h	/^	vector<set<int> > partition_overlap_indexs;$/;"	m	class:CHEA	access:public
+CHEA::per_intercept	cheaalg.h	/^	double per_intercept;$/;"	m	class:CHEA	access:public
+CHEA::pops_sub_self	cheaalg.h	/^	int *pops_sub_self;$/;"	m	class:CHEA	access:public
+CHEA::popsize	cheaalg.h	/^	int popsize;$/;"	m	class:CHEA	access:public
+CHEA::population	cheaalg.h	/^	vector <CHEA_SOP>  population;$/;"	m	class:CHEA	access:public
+CHEA::ps	cheaalg.h	/^	vector <CHEAInd>  ps;$/;"	m	class:CHEA	access:public
+CHEA::recordUpdateofIndiv	cheaalg.h	/^	bool *recordUpdateofIndiv;$/;"	m	class:CHEA	access:public
+CHEA::recv_idealpoint	cheaalg.h	/^	double **recv_idealpoint, **send_idealpoint;$/;"	m	class:CHEA	access:public
+CHEA::recv_indiv	cheaalg.h	/^	double **recv_indiv, **send_indiv;$/;"	m	class:CHEA	access:public
+CHEA::req_done_recv	cheaalg.h	/^	MPI_Request *req_done_recv;$/;"	m	class:CHEA	access:public
+CHEA::req_done_send	cheaalg.h	/^	MPI_Request *req_done_send;$/;"	m	class:CHEA	access:public
+CHEA::req_idealpoint_recv	cheaalg.h	/^	MPI_Request *req_idealpoint_recv;$/;"	m	class:CHEA	access:public
+CHEA::req_idealpoint_send	cheaalg.h	/^	MPI_Request *req_idealpoint_send;$/;"	m	class:CHEA	access:public
+CHEA::req_indiv_recv	cheaalg.h	/^	MPI_Request *req_indiv_recv;$/;"	m	class:CHEA	access:public
+CHEA::req_indiv_send	cheaalg.h	/^	MPI_Request *req_indiv_send;$/;"	m	class:CHEA	access:public
+CHEA::s_indiv	cheaalg.h	/^	int s_indiv;$/;"	m	class:CHEA	access:public
+CHEA::s_recv	cheaalg.h	/^	int s_recv, s_send;$/;"	m	class:CHEA	access:public
+CHEA::s_send	cheaalg.h	/^	int s_recv, s_send;$/;"	m	class:CHEA	access:public
+CHEA::save_front	cheaalg.cpp	/^void CHEA::save_front(char saveFilename[1024])$/;"	f	class:CHEA	signature:(char saveFilename[1024])
+CHEA::save_front	cheaalg.h	/^	void save_front(char savefilename[1024]);          \/\/ save the pareto front into files$/;"	p	class:CHEA	access:public	signature:(char savefilename[1024])
+CHEA::save_pos	cheaalg.cpp	/^void CHEA::save_pos(char saveFilename[1024])$/;"	f	class:CHEA	signature:(char saveFilename[1024])
+CHEA::save_pos	cheaalg.h	/^	void save_pos(char saveFilename[1024]);$/;"	p	class:CHEA	access:public	signature:(char saveFilename[1024])
+CHEA::sendIdealpoint	cheaalg.cpp	/^void CHEA::sendIdealpoint(double *buf, bool &isSend, int target, MPI_Request* request)$/;"	f	class:CHEA	signature:(double *buf, bool &isSend, int target, MPI_Request* request)
+CHEA::sendIdealpoint	cheaalg.h	/^	void sendIdealpoint(double *buf, bool &isSend, int target, MPI_Request* request);$/;"	p	class:CHEA	access:public	signature:(double *buf, bool &isSend, int target, MPI_Request* request)
+CHEA::send_idealpoint	cheaalg.h	/^	double **recv_idealpoint, **send_idealpoint;$/;"	m	class:CHEA	access:public
+CHEA::send_indiv	cheaalg.h	/^	double **recv_indiv, **send_indiv;$/;"	m	class:CHEA	access:public
+CHEA::send_indivs	cheaalg.h	/^    vector<CHEAInd> send_indivs;$/;"	m	class:CHEA	access:public
+CHEA::size_subp_on_edge	cheaalg.h	/^	int size_subp_on_edge;$/;"	m	class:CHEA	access:public
+CHEA::sop_partitions	cheaalg.h	/^	vector<vector<int> > sop_partitions;$/;"	m	class:CHEA	access:public
+CHEA::start	cheaalg.h	/^	clock_t start, finish;$/;"	m	class:CHEA	access:public
+CHEA::status_done	cheaalg.h	/^	MPI_Status status_done;$/;"	m	class:CHEA	access:public
+CHEA::status_idealpoint	cheaalg.h	/^	MPI_Status status_idealpoint;$/;"	m	class:CHEA	access:public
+CHEA::status_indiv	cheaalg.h	/^	MPI_Status status_indiv;$/;"	m	class:CHEA	access:public
+CHEA::subp_index_on_edge	cheaalg.h	/^	vector<int> subp_index_on_edge;$/;"	m	class:CHEA	access:public
+CHEA::tour_selection_hv	cheaalg.cpp	/^int  CHEA::tour_selection_hv(vector <CHEA_SOP>  &population)$/;"	f	class:CHEA	signature:(vector <CHEA_SOP> &population)
+CHEA::tour_selection_hv	cheaalg.h	/^	int  tour_selection_hv(vector <CHEA_SOP>  &population);$/;"	p	class:CHEA	access:public	signature:(vector <CHEA_SOP> &population)
+CHEA::tour_selection_hv_difference	cheaalg.cpp	/^double  CHEA::tour_selection_hv_difference(int p, vector <CHEA_SOP>  &population)$/;"	f	class:CHEA	signature:(int p, vector <CHEA_SOP> &population)
+CHEA::tour_selection_hv_difference	cheaalg.h	/^	double  tour_selection_hv_difference(int p, vector <CHEA_SOP>  &population);$/;"	p	class:CHEA	access:public	signature:(int p, vector <CHEA_SOP> &population)
+CHEA::unevolvetime	cheaalg.h	/^	clock_t unevolvetime;$/;"	m	class:CHEA	access:public
+CHEA::update_extreme_point	cheaalg.cpp	/^bool CHEA::update_extreme_point(CHEAInd& ind)$/;"	f	class:CHEA	signature:(CHEAInd& ind)
+CHEA::update_extreme_point	cheaalg.h	/^	bool update_extreme_point(CHEAInd& ind);$/;"	p	class:CHEA	access:public	signature:(CHEAInd& ind)
+CHEA::update_ideal_point	cheaalg.cpp	/^bool CHEA::update_ideal_point(const double *y_obj)$/;"	f	class:CHEA	signature:(const double *y_obj)
+CHEA::update_ideal_point	cheaalg.h	/^	bool update_ideal_point(const double* y_obj);$/;"	p	class:CHEA	access:public	signature:(const double* y_obj)
+CHEA::update_idealpoint_from_outside	cheaalg.cpp	/^bool CHEA::update_idealpoint_from_outside()$/;"	f	class:CHEA	signature:()
+CHEA::update_idealpoint_from_outside	cheaalg.h	/^	bool update_idealpoint_from_outside();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::update_indiv_from_outside	cheaalg.cpp	/^void CHEA::update_indiv_from_outside()$/;"	f	class:CHEA	signature:()
+CHEA::update_indiv_from_outside	cheaalg.h	/^	void update_indiv_from_outside();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::update_partition	cheaalg.cpp	/^void CHEA::update_partition()$/;"	f	class:CHEA	signature:()
+CHEA::update_partition	cheaalg.h	/^	void update_partition();$/;"	p	class:CHEA	access:public	signature:()
+CHEA::~CHEA	cheaalg.cpp	/^CHEA::~CHEA(){$/;"	f	class:CHEA	signature:()
+CHEA::~CHEA	cheaalg.h	/^	~CHEA();$/;"	p	class:CHEA	access:public	signature:()
+CHEAInd	cheaind.cpp	/^CHEAInd::CHEAInd()$/;"	f	class:CHEAInd	signature:()
+CHEAInd	cheaind.h	/^    CHEAInd();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEAInd	cheaind.h	/^class CHEAInd{$/;"	c
+CHEAInd::CHEAInd	cheaind.cpp	/^CHEAInd::CHEAInd()$/;"	f	class:CHEAInd	signature:()
+CHEAInd::CHEAInd	cheaind.h	/^    CHEAInd();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEAInd::Compare	cheaind.cpp	/^TCompare CHEAInd::Compare(CHEAInd& ind2) {$/;"	f	class:CHEAInd	signature:(CHEAInd& ind2)
+CHEAInd::Compare	cheaind.h	/^	TCompare Compare(CHEAInd& ind2);$/;"	p	class:CHEAInd	access:public	signature:(CHEAInd& ind2)
+CHEAInd::cal_V_obj	cheaind.cpp	/^void CHEAInd::cal_V_obj(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj_o)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj_o)
+CHEAInd::cal_V_obj	cheaind.h	/^	void cal_V_obj(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj)
+CHEAInd::cal_k_value	cheaind.cpp	/^void CHEAInd::cal_k_value(const vector<double>& idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+CHEAInd::cal_k_value	cheaind.h	/^	void cal_k_value(const vector<double>& idealPoint,const int& hyperplane_intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+CHEAInd::cal_normalizedf	cheaind.cpp	/^vector<double> CHEAInd::cal_normalizedf(const vector<double>& idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+CHEAInd::cal_normalizedf	cheaind.h	/^	vector<double> cal_normalizedf(const vector<double>& idealPoint,const int& hyperplane_intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+CHEAInd::get_index_from_V_obj	cheaind.cpp	/^int CHEAInd::get_index_from_V_obj(const vector<int> &V_obj,const int& hyper_Intercept)$/;"	f	class:CHEAInd	signature:(const vector<int> &V_obj,const int& hyper_Intercept)
+CHEAInd::get_index_from_V_obj	cheaind.h	/^	int get_index_from_V_obj(const vector<int>& V_obj, const int& hyper_Intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<int>& V_obj, const int& hyper_Intercept)
+CHEAInd::k_value	cheaind.h	/^	double k_value;$/;"	m	class:CHEAInd	access:public
+CHEAInd::obj_eval	cheaind.cpp	/^void CHEAInd::obj_eval()$/;"	f	class:CHEAInd	signature:()
+CHEAInd::obj_eval	cheaind.h	/^    void   obj_eval();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEAInd::obj_index	cheaind.h	/^	inline void obj_index(const vector <double> & idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	access:public	signature:(const vector <double> & idealPoint,const int& hyperplane_intercept)
+CHEAInd::operator =	cheaind.cpp	/^void CHEAInd::operator=(const CHEAInd &ind2)$/;"	f	class:CHEAInd	signature:(const CHEAInd &ind2)
+CHEAInd::operator =	cheaind.h	/^	void   operator=(const CHEAInd &ind2);$/;"	p	class:CHEAInd	access:public	signature:(const CHEAInd &ind2)
+CHEAInd::rnd_init	cheaind.cpp	/^void CHEAInd::rnd_init()$/;"	f	class:CHEAInd	signature:()
+CHEAInd::rnd_init	cheaind.h	/^    void   rnd_init();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEAInd::sectorialindex	cheaind.h	/^	int sectorialindex;$/;"	m	class:CHEAInd	access:public
+CHEAInd::show_objective	cheaind.cpp	/^void CHEAInd::show_objective()$/;"	f	class:CHEAInd	signature:()
+CHEAInd::show_objective	cheaind.h	/^    void   show_objective();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEAInd::x_var	cheaind.h	/^    vector <double> x_var;$/;"	m	class:CHEAInd	access:public
+CHEAInd::y_obj	cheaind.h	/^	vector <double> y_obj;$/;"	m	class:CHEAInd	access:public
+CHEAInd::~CHEAInd	cheaind.cpp	/^CHEAInd::~CHEAInd()$/;"	f	class:CHEAInd	signature:()
+CHEAInd::~CHEAInd	cheaind.h	/^	~CHEAInd();$/;"	p	class:CHEAInd	access:public	signature:()
+CHEA_SOP	cheaind.cpp	/^CHEA_SOP::CHEA_SOP()$/;"	f	class:CHEA_SOP	signature:()
+CHEA_SOP	cheaind.h	/^	CHEA_SOP();$/;"	p	class:CHEA_SOP	access:public	signature:()
+CHEA_SOP	cheaind.h	/^class CHEA_SOP{$/;"	c
+CHEA_SOP::CHEA_SOP	cheaind.cpp	/^CHEA_SOP::CHEA_SOP()$/;"	f	class:CHEA_SOP	signature:()
+CHEA_SOP::CHEA_SOP	cheaind.h	/^	CHEA_SOP();$/;"	p	class:CHEA_SOP	access:public	signature:()
+CHEA_SOP::V_obj_o	cheaind.h	/^	vector <int> V_obj_o;\/\/以Intercept为截距的超平面上的中心观察向量$/;"	m	class:CHEA_SOP	access:public
+CHEA_SOP::cal_vicinity	cheaind.cpp	/^void CHEA_SOP::cal_vicinity(vector<int> &V_obj, int vicinity_range, int hyperplane_Intercept,int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_index_set)$/;"	f	class:CHEA_SOP	signature:(vector<int> &V_obj, int vicinity_range, int hyperplane_Intercept,int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_index_set)
+CHEA_SOP::cal_vicinity	cheaind.h	/^	void cal_vicinity(vector<int> &V_obj, int vicinity_range,int hyperplane_Intercept, int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_set);$/;"	p	class:CHEA_SOP	access:public	signature:(vector<int> &V_obj, int vicinity_range,int hyperplane_Intercept, int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_set)
+CHEA_SOP::get_vicinity	cheaind.h	/^	inline void get_vicinity(int hyperplane_Intercept)$/;"	f	class:CHEA_SOP	access:public	signature:(int hyperplane_Intercept)
+CHEA_SOP::indiv	cheaind.h	/^	CHEAInd indiv;$/;"	m	class:CHEA_SOP	access:public
+CHEA_SOP::neighborhood	cheaind.h	/^	vector<int> neighborhood;$/;"	m	class:CHEA_SOP	access:public
+CHEA_SOP::sectorialindex	cheaind.h	/^	int sectorialindex;$/;"	m	class:CHEA_SOP	access:public
+CHEA_SOP::~CHEA_SOP	cheaind.cpp	/^CHEA_SOP::~CHEA_SOP()$/;"	f	class:CHEA_SOP	signature:()
+CHEA_SOP::~CHEA_SOP	cheaind.h	/^	~CHEA_SOP();$/;"	p	class:CHEA_SOP	access:public	signature:()
+Compare	cheaind.cpp	/^TCompare CHEAInd::Compare(CHEAInd& ind2) {$/;"	f	class:CHEAInd	signature:(CHEAInd& ind2)
+Compare	cheaind.h	/^	TCompare Compare(CHEAInd& ind2);$/;"	p	class:CHEAInd	access:public	signature:(CHEAInd& ind2)
+GetHyperVolume	cheaalg.cpp	/^double CHEA::GetHyperVolume(const CHEAInd&  ind,vector <double> &ref_ponit_cal)$/;"	f	class:CHEA	signature:(const CHEAInd& ind,vector <double> &ref_ponit_cal)
+GetHyperVolume	cheaalg.h	/^	virtual double GetHyperVolume(const CHEAInd&  ind, vector <double> &ref_ponit_cal);$/;"	p	class:CHEA	access:public	signature:(const CHEAInd& ind, vector <double> &ref_ponit_cal)
+IdealPoint	cheaalg.h	/^	vector <double> IdealPoint;$/;"	m	class:CHEA	access:public
+Pareto_HyperVolume_compare_sectorialgrid	cheaalg.cpp	/^bool CHEA::Pareto_HyperVolume_compare_sectorialgrid(const CHEAInd& ind ,CHEAInd& replacedInd)$/;"	f	class:CHEA	signature:(const CHEAInd& ind ,CHEAInd& replacedInd)
+Pareto_HyperVolume_compare_sectorialgrid	cheaalg.h	/^	virtual bool Pareto_HyperVolume_compare_sectorialgrid(const CHEAInd& ind ,CHEAInd& replacedInd);$/;"	p	class:CHEA	access:public	signature:(const CHEAInd& ind ,CHEAInd& replacedInd)
+ReferencePoint	cheaalg.h	/^	vector <double> ReferencePoint;$/;"	m	class:CHEA	access:public
+TrueNadirPoint	cheaalg.h	/^	vector <double> TrueNadirPoint;$/;"	m	class:CHEA	access:public
+V_obj_o	cheaind.h	/^	vector <int> V_obj_o;\/\/以Intercept为截距的超平面上的中心观察向量$/;"	m	class:CHEA_SOP	access:public
+__CHEA_CLASS_H_	cheaalg.h	2;"	d
+__DHEAInd_CLASS_H_	cheaind.h	3;"	d
+allocateForProcess	cheaalg.cpp	/^void CHEA::allocateForProcess()$/;"	f	class:CHEA	signature:()
+allocateForProcess	cheaalg.h	/^	void allocateForProcess();$/;"	p	class:CHEA	access:public	signature:()
+allocateForProcess_Linear	cheaalg.cpp	/^void CHEA::allocateForProcess_Linear()$/;"	f	class:CHEA	signature:()
+allocateForProcess_Linear	cheaalg.h	/^	void allocateForProcess_Linear();$/;"	p	class:CHEA	access:public	signature:()
+b_isdone	cheaalg.h	/^	int *b_isdone;$/;"	m	class:CHEA	access:public
+b_recv	cheaalg.h	/^	double *b_recv, *b_send;$/;"	m	class:CHEA	access:public
+b_send	cheaalg.h	/^	double *b_recv, *b_send;$/;"	m	class:CHEA	access:public
+c_recv	cheaalg.h	/^    double *c_recv,*c_send;$/;"	m	class:CHEA	access:public
+c_send	cheaalg.h	/^    double *c_recv,*c_send;$/;"	m	class:CHEA	access:public
+cal_V_obj	cheaind.cpp	/^void CHEAInd::cal_V_obj(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj_o)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj_o)
+cal_V_obj	cheaind.h	/^	void cal_V_obj(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept, vector<int> &V_obj)
+cal_k_value	cheaind.cpp	/^void CHEAInd::cal_k_value(const vector<double>& idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+cal_k_value	cheaind.h	/^	void cal_k_value(const vector<double>& idealPoint,const int& hyperplane_intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+cal_normalizedf	cheaind.cpp	/^vector<double> CHEAInd::cal_normalizedf(const vector<double>& idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+cal_normalizedf	cheaind.h	/^	vector<double> cal_normalizedf(const vector<double>& idealPoint,const int& hyperplane_intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<double>& idealPoint,const int& hyperplane_intercept)
+cal_vicinity	cheaind.cpp	/^void CHEA_SOP::cal_vicinity(vector<int> &V_obj, int vicinity_range, int hyperplane_Intercept,int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_index_set)$/;"	f	class:CHEA_SOP	signature:(vector<int> &V_obj, int vicinity_range, int hyperplane_Intercept,int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_index_set)
+cal_vicinity	cheaind.h	/^	void cal_vicinity(vector<int> &V_obj, int vicinity_range,int hyperplane_Intercept, int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_set);$/;"	p	class:CHEA_SOP	access:public	signature:(vector<int> &V_obj, int vicinity_range,int hyperplane_Intercept, int cal_index_now, int left_range, bool is_change_before, vector<int> vicinity, vector<int> &vicinity_set)
+calc_distance	cheaalg.cpp	/^double CHEA::calc_distance(vector<vector<double> >& ParetoFront)$/;"	f	class:CHEA	signature:(vector<vector<double> >& ParetoFront)
+calc_distance	cheaalg.h	/^	double calc_distance(vector<vector<double> >& ParetoFront);$/;"	p	class:CHEA	access:public	signature:(vector<vector<double> >& ParetoFront)
+calc_hypervolume	cheaalg.cpp	/^double CHEA::calc_hypervolume(vector<vector<double> >& ParetoFront)$/;"	f	class:CHEA	signature:(vector<vector<double> >& ParetoFront)
+calc_hypervolume	cheaalg.h	/^	double calc_hypervolume(vector<vector<double> >& ParetoFront);$/;"	p	class:CHEA	access:public	signature:(vector<vector<double> >& ParetoFront)
+calc_qualities	cheaalg.cpp	/^void CHEA::calc_qualities(double &igd, double& hv)$/;"	f	class:CHEA	signature:(double &igd, double& hv)
+calc_qualities	cheaalg.h	/^	void calc_qualities(double& igd, double &hv);$/;"	p	class:CHEA	access:public	signature:(double& igd, double &hv)
+evolution_tour_select	cheaalg.cpp	/^void CHEA::evolution_tour_select()$/;"	f	class:CHEA	signature:()
+evolution_tour_select	cheaalg.h	/^	void evolution_tour_select();$/;"	p	class:CHEA	access:public	signature:()
+evolution_tour_select_2	cheaalg.cpp	/^void CHEA::evolution_tour_select_2()$/;"	f	class:CHEA	signature:()
+evolution_tour_select_2	cheaalg.h	/^	void evolution_tour_select_2();$/;"	p	class:CHEA	access:public	signature:()
+execute	cheaalg.cpp	/^void CHEA::execute(int mg, int irun ,vector<double>& igd, vector<double>& hv,double &runtime, PTYPE ptype)$/;"	f	class:CHEA	signature:(int mg, int irun ,vector<double>& igd, vector<double>& hv,double &runtime, PTYPE ptype)
+execute	cheaalg.h	/^	void execute(int mg, int irun, vector<double>& igd, vector<double>& hv, double &runtime, PTYPE ptype);$/;"	p	class:CHEA	access:public	signature:(int mg, int irun, vector<double>& igd, vector<double>& hv, double &runtime, PTYPE ptype)
+finish	cheaalg.h	/^	clock_t start, finish;$/;"	m	class:CHEA	access:public
+gather_pop_y	cheaalg.cpp	/^void CHEA::gather_pop_y()$/;"	f	class:CHEA	signature:()
+gather_pop_y	cheaalg.h	/^	void gather_pop_y();$/;"	p	class:CHEA	access:public	signature:()
+gather_populations	cheaalg.cpp	/^void CHEA::gather_populations()$/;"	f	class:CHEA	signature:()
+gather_populations	cheaalg.h	/^	void gather_populations();$/;"	p	class:CHEA	access:public	signature:()
+gen_SubProblems	cheaalg.cpp	/^void CHEA::gen_SubProblems(int start_obj_index, int max_value_left, vector<int> coordinate,int &index_count)$/;"	f	class:CHEA	signature:(int start_obj_index, int max_value_left, vector<int> coordinate,int &index_count)
+gen_SubProblems	cheaalg.h	/^	void gen_SubProblems(int start_obj_index, int max_value_left, vector<int> coordinate, int &index_count);$/;"	p	class:CHEA	access:public	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int &index_count)
+gen_uniformweight	cheaalg.cpp	/^void CHEA::gen_uniformweight(int start_obj_index, int max_value_left, vector<int> coordinate, int H)$/;"	f	class:CHEA	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int H)
+gen_uniformweight	cheaalg.h	/^	void gen_uniformweight(int start_obj_index, int max_value_left, vector<int> coordinate, int H);$/;"	p	class:CHEA	access:public	signature:(int start_obj_index, int max_value_left, vector<int> coordinate, int H)
+getAndUpdateIndivs	cheaalg.cpp	/^void CHEA::getAndUpdateIndivs(double* b_recv_indiv, int datasize, int source, MPI_Request *request)$/;"	f	class:CHEA	signature:(double* b_recv_indiv, int datasize, int source, MPI_Request *request)
+getAndUpdateIndivs	cheaalg.h	/^	void getAndUpdateIndivs(double* b_recv_indiv, int datasize, int source, MPI_Request *request);$/;"	p	class:CHEA	access:public	signature:(double* b_recv_indiv, int datasize, int source, MPI_Request *request)
+get_index_from_V_obj	cheaind.cpp	/^int CHEAInd::get_index_from_V_obj(const vector<int> &V_obj,const int& hyper_Intercept)$/;"	f	class:CHEAInd	signature:(const vector<int> &V_obj,const int& hyper_Intercept)
+get_index_from_V_obj	cheaind.h	/^	int get_index_from_V_obj(const vector<int>& V_obj, const int& hyper_Intercept);$/;"	p	class:CHEAInd	access:public	signature:(const vector<int>& V_obj, const int& hyper_Intercept)
+get_vicinity	cheaind.h	/^	inline void get_vicinity(int hyperplane_Intercept)$/;"	f	class:CHEA_SOP	access:public	signature:(int hyperplane_Intercept)
+hyperplane_Intercept	cheaalg.h	/^	int hyperplane_Intercept;$/;"	m	class:CHEA	access:public
+indiv	cheaind.h	/^	CHEAInd indiv;$/;"	m	class:CHEA_SOP	access:public
+indivBufSize	cheaalg.h	/^	int indivBufSize;$/;"	m	class:CHEA	access:public
+indiv_buf	cheaalg.h	/^	double *indiv_buf;$/;"	m	class:CHEA	access:public
+init_neighborhood	cheaalg.h	/^	inline void init_neighborhood()\/\/为每一个子问题计算邻居子问题编号$/;"	f	class:CHEA	access:public	signature:()
+init_population	cheaalg.cpp	/^void CHEA::init_population()$/;"	f	class:CHEA	signature:()
+init_population	cheaalg.h	/^	void init_population();$/;"	p	class:CHEA	access:public	signature:()
+init_uniformweight	cheaalg.cpp	/^void CHEA::init_uniformweight()$/;"	f	class:CHEA	signature:()
+init_uniformweight	cheaalg.h	/^	void init_uniformweight();$/;"	p	class:CHEA	access:public	signature:()
+isBegin_Ideal	cheaalg.h	/^	bool *isBegin_Ideal;$/;"	m	class:CHEA	access:public
+isBegin_Indiv	cheaalg.h	/^	bool *isBegin_Indiv;$/;"	m	class:CHEA	access:public
+isDoneRecv	cheaalg.h	/^	int *isDoneRecv;$/;"	m	class:CHEA	access:public
+isDoneSend	cheaalg.h	/^	int *isDoneSend;$/;"	m	class:CHEA	access:public
+isIdealpointUpdate	cheaalg.h	/^	bool isIdealpointUpdate;$/;"	m	class:CHEA	access:public
+k_value	cheaind.h	/^	double k_value;$/;"	m	class:CHEAInd	access:public
+lambda	cheaalg.h	/^	vector<vector<int> >lambda;$/;"	m	class:CHEA	access:public
+lambda_compare	cheaalg.cpp	/^bool CHEA::lambda_compare(vector<int> &l1, vector<int> &l2)$/;"	f	class:CHEA	signature:(vector<int> &l1, vector<int> &l2)
+lambda_compare	cheaalg.h	/^	bool lambda_compare(vector<int> &l1, vector<int> & l2);$/;"	p	class:CHEA	access:public	signature:(vector<int> &l1, vector<int> & l2)
+maxLayer	cheaalg.h	/^	int maxLayer;$/;"	m	class:CHEA	access:public
+neighbor_partitions	cheaalg.h	/^	vector<int>neighbor_partitions;$/;"	m	class:CHEA	access:public
+neighbor_partitions_set	cheaalg.h	/^	set<int> neighbor_partitions_set;$/;"	m	class:CHEA	access:public
+neighborhood	cheaind.h	/^	vector<int> neighborhood;$/;"	m	class:CHEA_SOP	access:public
+obj_eval	cheaind.cpp	/^void CHEAInd::obj_eval()$/;"	f	class:CHEAInd	signature:()
+obj_eval	cheaind.h	/^    void   obj_eval();$/;"	p	class:CHEAInd	access:public	signature:()
+obj_index	cheaind.h	/^	inline void obj_index(const vector <double> & idealPoint,const int& hyperplane_intercept)$/;"	f	class:CHEAInd	access:public	signature:(const vector <double> & idealPoint,const int& hyperplane_intercept)
+onechild	cheaalg.h	/^	CHEAInd onechild;$/;"	m	class:CHEA	access:public
+operator =	cheaalg.cpp	/^void CHEA::operator=(const CHEA &emo)$/;"	f	class:CHEA	signature:(const CHEA &emo)
+operator =	cheaalg.h	/^	void operator=(const CHEA &emo);$/;"	p	class:CHEA	access:public	signature:(const CHEA &emo)
+operator =	cheaind.cpp	/^void CHEAInd::operator=(const CHEAInd &ind2)$/;"	f	class:CHEAInd	signature:(const CHEAInd &ind2)
+operator =	cheaind.h	/^	void   operator=(const CHEAInd &ind2);$/;"	p	class:CHEAInd	access:public	signature:(const CHEAInd &ind2)
+overlap_start_index	cheaalg.h	/^	int overlap_start_index;$/;"	m	class:CHEA	access:public
+partition_indexs	cheaalg.h	/^	vector<set<int> > partition_indexs;$/;"	m	class:CHEA	access:public
+partition_neighbor	cheaalg.cpp	/^void CHEA::partition_neighbor()$/;"	f	class:CHEA	signature:()
+partition_neighbor	cheaalg.h	/^	void partition_neighbor();$/;"	p	class:CHEA	access:public	signature:()
+partition_niche	cheaalg.h	/^	int partition_niche;$/;"	m	class:CHEA	access:public
+partition_overlap	cheaalg.cpp	/^void CHEA::partition_overlap(int maxLayer)$/;"	f	class:CHEA	signature:(int maxLayer)
+partition_overlap	cheaalg.h	/^	void partition_overlap(int maxLayer);$/;"	p	class:CHEA	access:public	signature:(int maxLayer)
+partition_overlap_indexs	cheaalg.h	/^	vector<set<int> > partition_overlap_indexs;$/;"	m	class:CHEA	access:public
+per_intercept	cheaalg.h	/^	double per_intercept;$/;"	m	class:CHEA	access:public
+pops_sub_self	cheaalg.h	/^	int *pops_sub_self;$/;"	m	class:CHEA	access:public
+popsize	cheaalg.h	/^	int popsize;$/;"	m	class:CHEA	access:public
+population	cheaalg.h	/^	vector <CHEA_SOP>  population;$/;"	m	class:CHEA	access:public
+population2front	cheaalg.cpp	/^void population2front(vector <CHEA_SOP>  &mypopulation, vector <CHEAInd>  &population_front)$/;"	f	signature:(vector <CHEA_SOP> &mypopulation, vector <CHEAInd> &population_front)
+population2front	cheaalg.cpp	/^void population2front(vector <CHEA_SOP>  &mypopulation, vector <vector<double> >  &population_front)$/;"	f	signature:(vector <CHEA_SOP> &mypopulation, vector <vector<double> > &population_front)
+population2front	cheaalg.h	/^void population2front(vector <CHEA_SOP>  &mypopulation, vector <CHEAInd>  &population_front);$/;"	p	signature:(vector <CHEA_SOP> &mypopulation, vector <CHEAInd> &population_front)
+population2front	cheaalg.h	/^void population2front(vector <CHEA_SOP>  &mypopulation, vector <vector<double> >  &population_front);$/;"	p	signature:(vector <CHEA_SOP> &mypopulation, vector <vector<double> > &population_front)
+ps	cheaalg.h	/^	vector <CHEAInd>  ps;$/;"	m	class:CHEA	access:public
+recordUpdateofIndiv	cheaalg.h	/^	bool *recordUpdateofIndiv;$/;"	m	class:CHEA	access:public
+recv_idealpoint	cheaalg.h	/^	double **recv_idealpoint, **send_idealpoint;$/;"	m	class:CHEA	access:public
+recv_indiv	cheaalg.h	/^	double **recv_indiv, **send_indiv;$/;"	m	class:CHEA	access:public
+req_done_recv	cheaalg.h	/^	MPI_Request *req_done_recv;$/;"	m	class:CHEA	access:public
+req_done_send	cheaalg.h	/^	MPI_Request *req_done_send;$/;"	m	class:CHEA	access:public
+req_idealpoint_recv	cheaalg.h	/^	MPI_Request *req_idealpoint_recv;$/;"	m	class:CHEA	access:public
+req_idealpoint_send	cheaalg.h	/^	MPI_Request *req_idealpoint_send;$/;"	m	class:CHEA	access:public
+req_indiv_recv	cheaalg.h	/^	MPI_Request *req_indiv_recv;$/;"	m	class:CHEA	access:public
+req_indiv_send	cheaalg.h	/^	MPI_Request *req_indiv_send;$/;"	m	class:CHEA	access:public
+rnd_init	cheaind.cpp	/^void CHEAInd::rnd_init()$/;"	f	class:CHEAInd	signature:()
+rnd_init	cheaind.h	/^    void   rnd_init();$/;"	p	class:CHEAInd	access:public	signature:()
+s_indiv	cheaalg.h	/^	int s_indiv;$/;"	m	class:CHEA	access:public
+s_recv	cheaalg.h	/^	int s_recv, s_send;$/;"	m	class:CHEA	access:public
+s_send	cheaalg.h	/^	int s_recv, s_send;$/;"	m	class:CHEA	access:public
+save_front	cheaalg.cpp	/^void CHEA::save_front(char saveFilename[1024])$/;"	f	class:CHEA	signature:(char saveFilename[1024])
+save_front	cheaalg.h	/^	void save_front(char savefilename[1024]);          \/\/ save the pareto front into files$/;"	p	class:CHEA	access:public	signature:(char savefilename[1024])
+save_population	cheaalg.cpp	/^void save_population(vector <CHEAInd>  &mypopulation, char saveFilename[1024])$/;"	f	signature:(vector <CHEAInd> &mypopulation, char saveFilename[1024])
+save_population	cheaalg.h	/^void save_population(vector <CHEAInd>  &mypopulation, char saveFilename[1024]);$/;"	p	signature:(vector <CHEAInd> &mypopulation, char saveFilename[1024])
+save_pos	cheaalg.cpp	/^void CHEA::save_pos(char saveFilename[1024])$/;"	f	class:CHEA	signature:(char saveFilename[1024])
+save_pos	cheaalg.h	/^	void save_pos(char saveFilename[1024]);$/;"	p	class:CHEA	access:public	signature:(char saveFilename[1024])
+sectorialindex	cheaind.h	/^	int sectorialindex;$/;"	m	class:CHEAInd	access:public
+sectorialindex	cheaind.h	/^	int sectorialindex;$/;"	m	class:CHEA_SOP	access:public
+sendIdealpoint	cheaalg.cpp	/^void CHEA::sendIdealpoint(double *buf, bool &isSend, int target, MPI_Request* request)$/;"	f	class:CHEA	signature:(double *buf, bool &isSend, int target, MPI_Request* request)
+sendIdealpoint	cheaalg.h	/^	void sendIdealpoint(double *buf, bool &isSend, int target, MPI_Request* request);$/;"	p	class:CHEA	access:public	signature:(double *buf, bool &isSend, int target, MPI_Request* request)
+send_idealpoint	cheaalg.h	/^	double **recv_idealpoint, **send_idealpoint;$/;"	m	class:CHEA	access:public
+send_indiv	cheaalg.h	/^	double **recv_indiv, **send_indiv;$/;"	m	class:CHEA	access:public
+send_indivs	cheaalg.h	/^    vector<CHEAInd> send_indivs;$/;"	m	class:CHEA	access:public
+show_objective	cheaind.cpp	/^void CHEAInd::show_objective()$/;"	f	class:CHEAInd	signature:()
+show_objective	cheaind.h	/^    void   show_objective();$/;"	p	class:CHEAInd	access:public	signature:()
+size_subp_on_edge	cheaalg.h	/^	int size_subp_on_edge;$/;"	m	class:CHEA	access:public
+sop_partitions	cheaalg.h	/^	vector<vector<int> > sop_partitions;$/;"	m	class:CHEA	access:public
+start	cheaalg.h	/^	clock_t start, finish;$/;"	m	class:CHEA	access:public
+status_done	cheaalg.h	/^	MPI_Status status_done;$/;"	m	class:CHEA	access:public
+status_idealpoint	cheaalg.h	/^	MPI_Status status_idealpoint;$/;"	m	class:CHEA	access:public
+status_indiv	cheaalg.h	/^	MPI_Status status_indiv;$/;"	m	class:CHEA	access:public
+subp_index_on_edge	cheaalg.h	/^	vector<int> subp_index_on_edge;$/;"	m	class:CHEA	access:public
+tour_selection_hv	cheaalg.cpp	/^int  CHEA::tour_selection_hv(vector <CHEA_SOP>  &population)$/;"	f	class:CHEA	signature:(vector <CHEA_SOP> &population)
+tour_selection_hv	cheaalg.h	/^	int  tour_selection_hv(vector <CHEA_SOP>  &population);$/;"	p	class:CHEA	access:public	signature:(vector <CHEA_SOP> &population)
+tour_selection_hv_difference	cheaalg.cpp	/^double  CHEA::tour_selection_hv_difference(int p, vector <CHEA_SOP>  &population)$/;"	f	class:CHEA	signature:(int p, vector <CHEA_SOP> &population)
+tour_selection_hv_difference	cheaalg.h	/^	double  tour_selection_hv_difference(int p, vector <CHEA_SOP>  &population);$/;"	p	class:CHEA	access:public	signature:(int p, vector <CHEA_SOP> &population)
+unevolvetime	cheaalg.h	/^	clock_t unevolvetime;$/;"	m	class:CHEA	access:public
+update_extreme_point	cheaalg.cpp	/^bool CHEA::update_extreme_point(CHEAInd& ind)$/;"	f	class:CHEA	signature:(CHEAInd& ind)
+update_extreme_point	cheaalg.h	/^	bool update_extreme_point(CHEAInd& ind);$/;"	p	class:CHEA	access:public	signature:(CHEAInd& ind)
+update_ideal_point	cheaalg.cpp	/^bool CHEA::update_ideal_point(const double *y_obj)$/;"	f	class:CHEA	signature:(const double *y_obj)
+update_ideal_point	cheaalg.h	/^	bool update_ideal_point(const double* y_obj);$/;"	p	class:CHEA	access:public	signature:(const double* y_obj)
+update_idealpoint_from_outside	cheaalg.cpp	/^bool CHEA::update_idealpoint_from_outside()$/;"	f	class:CHEA	signature:()
+update_idealpoint_from_outside	cheaalg.h	/^	bool update_idealpoint_from_outside();$/;"	p	class:CHEA	access:public	signature:()
+update_indiv_from_outside	cheaalg.cpp	/^void CHEA::update_indiv_from_outside()$/;"	f	class:CHEA	signature:()
+update_indiv_from_outside	cheaalg.h	/^	void update_indiv_from_outside();$/;"	p	class:CHEA	access:public	signature:()
+update_partition	cheaalg.cpp	/^void CHEA::update_partition()$/;"	f	class:CHEA	signature:()
+update_partition	cheaalg.h	/^	void update_partition();$/;"	p	class:CHEA	access:public	signature:()
+x_var	cheaind.h	/^    vector <double> x_var;$/;"	m	class:CHEAInd	access:public
+y_obj	cheaind.h	/^	vector <double> y_obj;$/;"	m	class:CHEAInd	access:public
+~CHEA	cheaalg.cpp	/^CHEA::~CHEA(){$/;"	f	class:CHEA	signature:()
+~CHEA	cheaalg.h	/^	~CHEA();$/;"	p	class:CHEA	access:public	signature:()
+~CHEAInd	cheaind.cpp	/^CHEAInd::~CHEAInd()$/;"	f	class:CHEAInd	signature:()
+~CHEAInd	cheaind.h	/^	~CHEAInd();$/;"	p	class:CHEAInd	access:public	signature:()
+~CHEA_SOP	cheaind.cpp	/^CHEA_SOP::~CHEA_SOP()$/;"	f	class:CHEA_SOP	signature:()
+~CHEA_SOP	cheaind.h	/^	~CHEA_SOP();$/;"	p	class:CHEA_SOP	access:public	signature:()
